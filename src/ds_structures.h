@@ -5,7 +5,7 @@
 #include "types.h"
 using namespace std;
 
-// ========================= Custom Hash Map (int -> Difficulty) =========================
+// Custom Hash Map (int -> Difficulty) 
 class DifficultyHashMap {
 private:
     struct Entry {
@@ -72,7 +72,7 @@ public:
     }
 };
 
-// ========================= Custom Stack (Array-based) =========================
+// Custom Stack (Array-based) 
 template <typename T>
 class ArrayStack {
 private:
@@ -111,7 +111,7 @@ public:
     void clear() { topIdx = -1; }
 };
 
-// ========================= Custom Stack (Linked-list based) =========================
+// Custom Stack (Linked-list based) 
 template <typename T>
 class LinkedStack {
 private:
@@ -152,7 +152,7 @@ public:
     void clear() { while (!empty()) pop(); }
 };
 
-// ========================= Custom Queue (Array-based circular) =========================
+// Custom Queue (Array-based circular)
 template <typename T>
 class ArrayQueue {
 private:
@@ -190,7 +190,7 @@ public:
     }
 };
 
-// ========================= Custom Queue (Linked-list based) =========================
+// Custom Queue (Linked-list based) 
 template <typename T>
 class LinkedQueue {
 private:
